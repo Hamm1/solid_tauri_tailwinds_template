@@ -1,5 +1,6 @@
 import { A } from "solid-start";
 import Counter from "~/components/Counter";
+import Greet from "~/components/Greet.tsx";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         Hello world!
       </h1>
       <Counter />
+      <Greet />
       <p class="mt-8">
         Visit{" "}
         <a
