@@ -1,6 +1,4 @@
-import solid from "solid-start/vite";
-import { defineConfig } from "vite";
+/* jshint esversion: 6 */
+import { defineConfig } from "@solidjs/start/config";
 
-export default defineConfig({
-  plugins: [solid({ ssr: false })],
-});
+export default defineConfig({ start: { ssr: false } });
